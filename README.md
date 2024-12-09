@@ -33,14 +33,18 @@ Immo_ML/
 
 ## **Installation**  
 1. Clone the Repository  
+
         git clone https://github.com/FomAndrii/Immo_ML.git  
+
         cd Immo_ML  
 
-2. Set Up a Virtual Environment  
+3. Set Up a Virtual Environment  
+
         python3 -m venv venv  
+
         source venv/bin/activate       # On Windows, use `venv\Scripts\activate`  
 
-3. Install Black is the uncompromising Python code formatter  
+5. Install Black is the uncompromising Python code formatter  
 
         pip install black  
 
