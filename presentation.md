@@ -69,8 +69,8 @@ Once my models were applied, evaluate its performance using appropriate metrics.
 *Root Mean Squared Error (RMSE): 118399.85046857627*  
 *Mean Absolute Error (MAE): 86860.86971330237*  
 
-![Actual vs Predicted Prices: Train](results\DT_Actual_vs_Predicted_Prices_Test.png)  
-![Actual vs Predicted Prices: Test](results\DT_Actual_vs_Predicted_Prices_Train.png)  
+![Actual vs Predicted Prices: Train](results/DT_Actual_vs_Predicted_Prices_Test.png)  
+![Actual vs Predicted Prices: Test](results/DT_Actual_vs_Predicted_Prices_Train.png)  
 
 ### **Summary:**
 The Model of Decision Tree is suboptimal for the following reasons:
@@ -95,9 +95,9 @@ The high RMSE and MAE values indicate significant prediction errors, making the 
 *Root Mean Squared Error (RMSE): 104156.3518555971*  
 *Mean Absolute Error (MAE): 75687.4478682724*  
 
-![Random Forest: Features Importance](results\RF_Feature_Importance.png)  
-![Actual vs Predicted Prices: Train](results\RF_Actual_vs_Predicted_Prices_Train.png)  
-![Actual vs Predicted Prices: Test](results\RF_Actual_vs_Predicted_Prices_Test.png)  
+![Random Forest: Features Importance](results/RF_Feature_Importance.png)  
+![Actual vs Predicted Prices: Train](results/RF_Actual_vs_Predicted_Prices_Train.png)  
+![Actual vs Predicted Prices: Test](results/RF_Actual_vs_Predicted_Prices_Test.png)  
 
 **Summary and Insights:**
 1. **Overfitting:** The model performs significantly better on the training set (higher R²) than on the testing set, suggesting overfitting. The model may have learned the training data too well, capturing noise or irrelevant patterns that don't generalize well to new data.
