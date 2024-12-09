@@ -40,7 +40,7 @@ Immo_ML/
         python3 -m venv venv  
         source venv/bin/activate       # On Windows, use `venv\Scripts\activate`  
 
-3. Install Black is the uncompromising Python code formatter.  
+3. Install Black is the uncompromising Python code formatter  
 
         pip install black  
 
@@ -63,7 +63,7 @@ Train and evaluate the decision tree regression model:
 3. Build Random Forest Model with Visualization  
 Train and evaluate the decision tree regression model:  
 
-    python scripts/random_forest_analysis.py  
+        python scripts/random_forest_analysis.py  
 
 4. View Results
 Check the results in the results/ folder for visualizations and performance metrics.  
@@ -72,7 +72,13 @@ Check the results in the results/ folder for visualizations and performance metr
 
 **![Heatmap of Feature Correlations](<results/Correlation Heatmap.png>)**  
 
-**![Predicted vs Actual Prices (Test Set)](results/Histogramma_Price.png)**  
+**![Predicted vs Actual Prices (Test Set)](results/Histogramma_Price.png)**
+
+**![Decision Tree: Actual vs Predicted Prices Train](results/DT_Actual_vs_Predicted_Prices_Train.png)**
+
+**![Random Forest: Actual vs Predicted Prices Train](results/RF_Actual_vs_Predicted_Prices_Train.png)**
+
+**![Random Forest: Feature Importance](results/RF_Feature_Importance.png)**
 
 ## **Contributors**  
 **Andrii Fomichov:** BeCode learner, code implementor and lead of data preprocessing.  
