@@ -62,7 +62,7 @@ Ensure the raw data is placed in the data/ folder. Run the following command to 
 2. Build Decision Tree Model with Visualization  
 Train and evaluate the decision tree regression model:  
 
-        python scripts/decision_tree_analysis.py  
+        python scripts/desision_tree_analysis.py  
 
 3. Build Random Forest Model with Visualization  
 Train and evaluate the decision tree regression model:  
