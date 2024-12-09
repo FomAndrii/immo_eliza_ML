@@ -58,19 +58,19 @@ Once my models were applied, evaluate its performance using appropriate metrics.
 
 **The Decision Tree Model showed the next data:**
 **Training Set Performance:**
-*R² Score: 0.4610856873098689*
-*Mean Squared Error (MSE): 12220071488.587204*
-*Root Mean Squared Error (RMSE): 110544.43219170834*
-*Mean Absolute Error (MAE): 80249.05879262238*
+*R² Score: 0.4610856873098689*  
+*Mean Squared Error (MSE): 12220071488.587204*  
+*Root Mean Squared Error (RMSE): 110544.43219170834*  
+*Mean Absolute Error (MAE): 80249.05879262238*  
 
 **Testing Set Performance:**
-*R² Score: 0.36041596837416723*
-*Mean Squared Error (MSE): 14018524590.981222*
-*Root Mean Squared Error (RMSE): 118399.85046857627*
-*Mean Absolute Error (MAE): 86860.86971330237*
+*R² Score: 0.36041596837416723*  
+*Mean Squared Error (MSE): 14018524590.981222*  
+*Root Mean Squared Error (RMSE): 118399.85046857627*  
+*Mean Absolute Error (MAE): 86860.86971330237*  
 
-![Actual vs Predicted Prices: Train](<results\DT_Actual_vs_Predicted_Prices_Train.png>)
-![Actual vs Predicted Prices: Test](<results\DT_Actual_vs_Predicted_Prices_Test.png>)
+![Actual vs Predicted Prices: Train](<results\DT_Actual_vs_Predicted_Prices_Test.png>)  
+![Actual vs Predicted Prices: Test](<results\DT_Actual_vs_Predicted_Prices_Train.png>)  
 
 ### **Summary:**
 The Model of Decision Tree is suboptimal for the following reasons:
@@ -84,20 +84,20 @@ The high RMSE and MAE values indicate significant prediction errors, making the 
 
 **The Random Forest Model showed the next data:**
 **Training Set Performance:**
-*R² Score: 0.5557598892245861*
-*Mean Squared Error (MSE): 10073300678.682955*
-*Root Mean Squared Error (RMSE): 100365.83422003205*
-*Mean Absolute Error (MAE): 72321.4973339466*
+*R² Score: 0.5557598892245861*  
+*Mean Squared Error (MSE): 10073300678.682955*  
+*Root Mean Squared Error (RMSE): 100365.83422003205*  
+*Mean Absolute Error (MAE): 72321.4973339466*  
 
 **Testing Set Performance:**
-*R² Score: 0.5050437364164431*
-*Mean Squared Error (MSE): 10848545631.866943*
-*Root Mean Squared Error (RMSE): 104156.3518555971*
-*Mean Absolute Error (MAE): 75687.4478682724*
+*R² Score: 0.5050437364164431*  
+*Mean Squared Error (MSE): 10848545631.866943*  
+*Root Mean Squared Error (RMSE): 104156.3518555971*  
+*Mean Absolute Error (MAE): 75687.4478682724*  
 
-![Random Forest: Features Importance](<results\RF_Feature_Importance.png>)
-![Actual vs Predicted Prices: Train](<results\RF_Actual_vs_Predicted_Prices_Train.png>)
-![Actual vs Predicted Prices: Test](<results\RF_Actual_vs_Predicted_Prices_Test.png>)
+![Random Forest: Features Importance](<results\RF_Feature_Importance.png>)  
+![Actual vs Predicted Prices: Train](<results\RF_Actual_vs_Predicted_Prices_Train.png>)  
+![Actual vs Predicted Prices: Test](<results\RF_Actual_vs_Predicted_Prices_Test.png>)  
 
 **Summary and Insights:**
 1. **Overfitting:** The model performs significantly better on the training set (higher R²) than on the testing set, suggesting overfitting. The model may have learned the training data too well, capturing noise or irrelevant patterns that don't generalize well to new data.
@@ -108,18 +108,18 @@ The high RMSE and MAE values indicate significant prediction errors, making the 
 Tune Hyperparameters: Consider tuning the hyperparameters of the Random Forest (such as n_estimators, max_depth, min_samples_split, and min_samples_leaf) to improve the model's performance. You can use GridSearchCV or RandomizedSearchCV for hyperparameter optimization.
 
 **Questions to Consider**:
-- How could you improve the model’s performance?
-The main approaches to improve the model`s performance are:
+- How could you improve the model’s performance?  
+The main approaches to improve the model`s performance are:  
 1) try to scrab new dataset with the biggest data;
 2) avoid overfitting model;
 3) work better in the preprocessing (try to save data from one side, but make its cleaner, from another side);
 4) try to find the best features for every model;
 5) try Tune Hyperparameters
 
-- Which part of the process (data cleaning, feature engineering, model selection) has the most impact on the results?
+- Which part of the process (data cleaning, feature engineering, model selection) has the most impact on the results?  
 All parts of the process are string important for project, especially data cleaning and feature engineering. You should be attentive in data cleaning and creative in data engineering.
 
-- How should you divide your time working on this kind of project to maximize efficiency and model performance?
+- How should you divide your time working on this kind of project to maximize efficiency and model performance?  
 I would say that the most efficient time management in projects like this should be:
 - **15-20%:** Data collection, cleaning, and preprocessing.
 - **15-20%:** Feature engineering, correlation analysis, and dummy variable creation.
