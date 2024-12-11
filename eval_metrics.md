@@ -103,27 +103,30 @@ The best resulst was with the 20/80 splitting.
 
 **Feature Importance:**  
 Feature  Importance:  
-2                 Living_Area    0.414775  
-8                 Region_Code    0.271200  
-3      Fully_Equipped_Kitchen    0.051657  
-9                      AS_NEW    0.050627  
-13                TO_RENOVATE    0.047689  
-17                      HOUSE    0.036091  
-6   Surface_area_plot_of_land    0.033003  
-1             Number_of_Rooms    0.022142  
-4                     Terrace    0.013456  
-12              TO_BE_DONE_UP    0.012301  
-0            Type_of_Property    0.009258  
-7           Number_of_Facades    0.008031  
-18                  PENTHOUSE    0.007085  
-11             JUST_RENOVATED    0.005909  
-10                       GOOD    0.005675  
-15                  APARTMENT    0.004480  
-5                      Garden    0.003483  
-20                      VILLA    0.001739  
-16                     DUPLEX    0.000734  
-19                 TOWN_HOUSE    0.000663  
-14                 TO_RESTORE    0.000000  
+| Feature Index | Feature Name                 | Importance   |
+|---------------|------------------------------|--------------|
+| 2             | Living_Area                 | 0.414775      |
+| 8             | Region_Code                 | 0.271200      |
+| 3             | Fully_Equipped_Kitchen      | 0.051657      |
+| 9             | AS_NEW                      | 0.050627      |
+| 13            | TO_RENOVATE                 | 0.047689      |
+| 17            | HOUSE                       | 0.036091      |
+| 6             | Surface_area_plot_of_land   | 0.033003      |
+| 1             | Number_of_Rooms             | 0.022142      |
+| 4             | Terrace                     | 0.013456      |
+| 12            | TO_BE_DONE_UP               | 0.012301      |
+| 0             | Type_of_Property            | 0.009258      |
+| 7             | Number_of_Facades           | 0.008031      |
+| 18            | PENTHOUSE                   | 0.007085      |
+| 11            | JUST_RENOVATED              | 0.005909      |
+| 10            | GOOD                        | 0.005675      |
+| 15            | APARTMENT                   | 0.004480      |
+| 5             | Garden                      | 0.003483      |
+| 20            | VILLA                       | 0.001739      |
+| 16            | DUPLEX                      | 0.000734      |
+| 19            | TOWN_HOUSE                  | 0.000663      |
+| 14            | TO_RESTORE                  | 0.000000      |
+
 
 **A quick presentation of the final dataset**  
 I wanted to change categorical data (municipality and province) to numeric (Brussels Capital - 1, Flanders - 2, Wallonia - 3).    
